@@ -1,0 +1,13 @@
+.display-popular-card { width: 13em;font-size: "2em", }
+@media (max-width:500px) {
+    /* your conditional / responsive CSS inside this condition */
+    .display-popular-card { width: 12em; font-size: "1em",}
+  }
+
+
+.map-container{
+  margin-left:20em;
+}
+
+
+

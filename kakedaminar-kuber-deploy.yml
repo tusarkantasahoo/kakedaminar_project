@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kakedaminar
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kakedaminar
+  template:
+    metadata:
+      labels:
+        app: kakedaminar
+    spec:
+      containers:
+      - name: kakedaminar
+        image: tusar2110/kakedaminar
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kakedaminar-serv
+spec:
+  ports :
+  - name : kakedaminar
+    port: 3000
+    targetPort : 3000
+  selector:
+    app: kakedaminar
