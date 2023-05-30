@@ -44,7 +44,7 @@ function Reviews() {
   ];
   return (
     <>
-      <div className="container">
+      {/* <div className="container">
         <p style={{ fontWeight: "400" }}>YouTube Reviews</p>
         <div className="container-fluid">
           <div className="row">
@@ -63,7 +63,7 @@ function Reviews() {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

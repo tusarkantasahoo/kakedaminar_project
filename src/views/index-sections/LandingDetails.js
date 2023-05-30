@@ -58,8 +58,10 @@ function LandingDetails() {
                     fontWeight: "450",
                   }}
                 >
-                  Sed autem laudantium dolores. Voluptatem itaque ea consequatur
-                  eveniet. Eum quas beatae cumque eum quaerat.
+                  Hi you can checkout the menu and before coming to our
+                  restaurant you can choose your table and book by clicking on
+                  Book a table button ! Enjoy your meals. We are having 30% off
+                  on all the items you purchase.
                 </p>
                 <div style={{ display: "flex", justifyContent: "center" }}>
                   <Button
